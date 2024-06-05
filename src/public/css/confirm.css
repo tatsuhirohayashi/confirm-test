@@ -1,0 +1,121 @@
+.header {
+    border-bottom: solid 2px #f0f0f0;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #856548;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* ここまでヘッダー */
+
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #856548;
+    font-size: 20px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px 40px;
+    width: 30%;
+    border-bottom: 1px solid #ddd;
+    background-color: #C5AF9C;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: normal;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text-gender {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #C58A57;
+}
+
+.confirm-table__text-name {
+    width: 10%;
+    outline: none;
+    border: none;
+    color: #C58A57;
+}
+
+.confirm-table__text-input {
+    width: 50%;
+    outline: none;
+    border: none;
+    color: #C58A57;
+}
+
+.confirm-table__text-textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 55px;
+    overflow-y: hidden;
+    resize: none;
+    color: #C58A57;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 5px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #6C513B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-modification {
+    margin-left: 30px;
+    padding: 5px;
+    color: #856548;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}

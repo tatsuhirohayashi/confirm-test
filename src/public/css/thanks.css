@@ -1,0 +1,45 @@
+.thanks-container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-p {
+    font-size: 200px;
+    color: #ddd;
+    opacity: 0.3;
+}
+
+.thanks-you {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks-you-p {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b3b35;
+}
+
+.thanks-you-div {
+    text-align: center;
+}
+
+.thanks-you-a {
+    width: 300px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4b3b35;
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,136 @@
+.header {
+    border-bottom: solid 2px #f0f0f0;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+    text-align: center;
+}
+
+.header__logo {
+    color: #856548;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* ここまでヘッダー */
+
+.contact__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #856548;
+    font-size: 20px;
+}
+
+.form {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.form-item {
+    padding: 4px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.form-item-label {
+    width: 100%;
+    font-size: 16px;
+    color: #856548;
+}
+
+.form-item-label-required {
+    color: #ff0000;
+    font-size: 16px;
+    margin: 0 3px;
+}
+
+.form-item-input {
+    margin-left: 10px;
+    padding: 0 20px;
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    border: none;
+    background: #f8f8f8;
+}
+
+.form-item-input-name {
+    margin-left: 10px;
+    padding: 0 20px;
+    height: 30px;
+    width: 47%;
+    font-size: 12px;
+    border: none;
+    background: #f8f8f8;
+}
+
+.form-item-input-gender {
+    height: 20px;
+    width: 10%;
+}
+
+.form-item-input-gender-span {
+    font-size: 12px;
+    width: 25%;
+}
+
+.form-item-input-tel {
+    margin-left: 10px;
+    padding: 0 20px;
+    height: 30px;
+    width: 25%;
+    background: #eaedf2;
+    font-size: 12px;
+    border: none;
+    background: #f8f8f8;
+}
+
+.form-item-input-tel-span {
+    padding: 0 5px;
+    width: 20px;
+}
+
+.form-item-textarea {
+    margin-left: 10px;
+    padding: 10px 10px;
+    height: 100px;
+    width: 100%;
+    background: #eaedf2;
+    font-size: 12px;
+    border: none;
+    background: #f8f8f8;
+    appearance: none;
+    resize: none;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: center;
+}
+
+.form__button {
+    margin: 20px auto 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 15%;
+    height: 40px;
+    border: none;
+    background-color: #6C513B;
+    color: #fff;
+    cursor: pointer;
+}
